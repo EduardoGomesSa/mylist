@@ -13,7 +13,7 @@ class BasePage extends StatefulWidget {
   @override
   State<BasePage> createState() => _BasePageState();
 }
-
+ 
 class _BasePageState extends State<BasePage> {
   int currentIndex = 0;
   final pageController = PageController();
